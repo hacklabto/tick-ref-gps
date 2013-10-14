@@ -27,7 +27,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -126,10 +126,10 @@
 <wire x1="66.7385" y1="45.2755" x2="106.6165" y2="45.2755" width="1.016" layer="21" style="shortdash"/>
 <text x="68.0085" y="34.29" size="3.302" layer="21" ratio="12">HIGH VOLTAGE</text>
 <text x="77.216" y="39.37" size="3.302" layer="21" ratio="12">DANGER</text>
-<rectangle x1="40.894" y1="110.9345" x2="147.574" y2="114.3" layer="29"/>
-<rectangle x1="40.894" y1="110.9345" x2="147.6375" y2="114.3" layer="30"/>
-<rectangle x1="40.92575" y1="0" x2="147.60575" y2="3.3655" layer="29"/>
-<rectangle x1="40.92575" y1="0" x2="147.60575" y2="3.3655" layer="30"/>
+<rectangle x1="0" y1="110.9345" x2="106.68" y2="114.3" layer="29"/>
+<rectangle x1="0" y1="110.9345" x2="106.7435" y2="114.3" layer="30"/>
+<rectangle x1="0.00635" y1="0" x2="106.68635" y2="3.3655" layer="29"/>
+<rectangle x1="-0.00635" y1="0" x2="106.67365" y2="3.3655" layer="30"/>
 <text x="37.338" y="8.763" size="1.778" layer="21">ICSP</text>
 <text x="5.2324" y="15.5575" size="1.778" layer="21" rot="SR270" align="center">Panel</text>
 <text x="28.575" y="33.528" size="1.778" layer="21">RS232</text>
@@ -3012,40 +3012,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="93.2815" y1="91.7575" x2="93.2815" y2="91.694" width="1.016" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,a87c5a025a03a87d"/>
-<approved hash="3,16,ac60029e02eaac14"/>
-<approved hash="3,1,ac60029e02eaac14"/>
-<approved hash="3,1,a87c5a025a03a87d"/>
-<approved hash="19,1,392f91b50f139c2a"/>
-<approved hash="19,1,af6ac91e29e669ad"/>
-<approved hash="19,1,42fdac7cfaf59a3c"/>
-<approved hash="4,1,cc35f86a58496dd6"/>
-<approved hash="4,1,7c5969dc48df3871"/>
-<approved hash="4,1,d7596ae7aff26dde"/>
-<approved hash="19,1,ff52931dd80e66fd"/>
-<approved hash="4,1,c144d5c53d15b23b"/>
-<approved hash="4,1,defa575756b4dabb"/>
-<approved hash="4,1,13cefa811b8cae1a"/>
-<approved hash="4,1,8a3fd16da7e47985"/>
-<approved hash="4,1,d61f892a8840cb6e"/>
-<approved hash="4,1,e512d68b17ff2dd2"/>
-<approved hash="4,1,c60578ec89a74274"/>
-<approved hash="4,1,a6d376511c4228dd"/>
-<approved hash="4,1,da10ab7eb58cd8f9"/>
-<approved hash="4,1,2cd088f87bd6d58c"/>
-<approved hash="4,1,575b9ada6a82d53b"/>
-<approved hash="4,1,d346691dc74a6d0e"/>
-<approved hash="5,1,1ee00aa01e664f83"/>
-<approved hash="5,1,7a007b9cfb9cfa00"/>
-<approved hash="5,1,cf848a0f48370c0b"/>
-<approved hash="5,1,7585ea4701c2314d"/>
-<approved hash="6,16,f597e2e016e00197"/>
-<approved hash="6,16,a6fe72227b092b41"/>
-<approved hash="6,16,af8ff18c68b0d30c"/>
-<approved hash="6,16,09eb32768ef550d7"/>
-<approved hash="6,16,7e195ffe54f9804e"/>
-</errors>
 </board>
 </drawing>
 </eagle>
